@@ -1,0 +1,76 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  margin-top: -5px;
+}
+.jumbotron{
+	text-align: center;
+	background-image:url(../images/hero_image.jpg);
+	border-radius: 0;
+	padding: 2rem 2rem;
+}
+.btn-lg{
+	font-size: 36px;
+}
+.jumbotron h1{
+	font-family: Arvo, courier, serif;
+	margin-top: 0px;
+	margin-bottom: 44px;
+	color: black;
+	font-size: 70px;
+}
+ul.navbar-nav{
+	font-family: Arvo, courier, serif;
+	font-size: 13px;
+	margin-left: 0px;
+	margin-right: 90px;
+}
+.navbar{
+	padding: 5.5px;
+	background-color: #222;
+}
+.navbar-brand {
+	margin-right: 0px;
+	margin-left: 100px;
+}
+.nav-item{
+	padding-right: 10px;
+}
+.jumbotron p{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 29px;
+    margin-bottom: 30px;
+    color: black;
+}
+.container{
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.col-md-4 h3{
+	font-family: Arvo, courier, serif;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.col-md-4 a, h3, h2, .link{
+	color: #e74c3c;
+}
+.col-md-4 p{
+	font-size: 20px;
+}
+.container h2{
+	font-family: Arvo, courier, serif;
+	margin-top: 1.5rem;
+}
+hr{
+	border-top: 1px solid rgb(231, 76, 60);
+	width: 15%;
+}
+.container p{
+	font-size: 20px;
+}
+a.link:hover {
+	text-decoration: none;
+	color: #e74c3cc2;
+
+}
