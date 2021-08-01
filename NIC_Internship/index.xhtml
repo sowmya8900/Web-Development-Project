@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+	<title>Registration Form</title>
+        <style>
+            #insert{
+                 width: 90px;  height: 45px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center"> Registration Form </h1>
+        <p style="text-align: center;">You can register to our service by using the following form!</p>
+        <br></br>
+        <form action="" method="post"> 
+            <table border="0" align="center">
+                <tr>
+                    <td>ID: </td> 
+                    <td><input type="number" id="ID" name="ID" size="40" minlength="1" maxlength="5"></input>
+                    </td>
+                </tr>
+                <br/><br/>
+                <tr>
+                    <td>Name: </td> 
+                    <td><input type="text" id="name" name="name" size="40" maxlength="80"></input>
+                    </td>
+                </tr> 
+                <br/><br/>
+                <tr>
+                    <td>Email address:</td>
+                    <td><input type="email" id="email" name="email" size="40" maxlength="80"></input>
+                    </td>
+                </tr>
+                <br/><br/>
+                <tr>
+                    <td>Are you a member of our <br/> social media group? </td> 
+                    <td>
+                        <form>
+                            <input type="checkbox" id= "member" name="member" value="true" checked="checked" />
+                        </form>
+                    </td>
+                </tr> 
+                <br/><br/>
+                <tr>
+                    <td valign="top">Your age:</td>
+                    <td>
+                        <input type="radio" name="Age" id="young" value="20"/> &lt;= 20 <br/>
+                        <input type="radio" name="Age" id="twenties" value="21-30" checked="checked"/> 21-30 <br/>
+                        <input type="radio" name="Age" id="thirties" value="31-40"/>31-40 <br/>
+                        <input type="radio" name="Age" id="old" value="40"/> &gt; 40
+                    </td>
+                </tr> 
+                <br/><br/>
+                <tr>
+                    <td>Your state:</td> 
+                    <td> 
+                        <select name="state">
+                            <option value="asm">Assam</option>
+                            <option value="nct">National Capital Territory of Delhi (NCT)</option>
+                            <option value="hry">Haryana</option>
+                            <option value="mp">Madhya Pradesh</option>
+                            <option value="tlg">Telangana</option>
+                            <option value="tln">Tamil Nadu</option>
+                            <option value="up">Uttar Pradesh</option>
+                        </select>
+                    </td>
+                </tr>
+                <br/><br/>
+                <tr>
+                    <td valign="top">How did you <br/>find our site:</td> 
+                    <td> 
+                        <select name="found" SIZE="3">
+                            <option value="WS">Web Search</option>
+                            <option value="LOAS">Link on another site</option>
+                            <option value="TAI">Told about it</option>
+                            <option value="NOTA">Other</option>
+                        </select>
+                    </td>
+                </tr> 
+                <br/><br/>
+                <tr>
+                    <td valign="top">Site suggestions:</td> 
+                    <td><textarea name="suggestion" rows="2" cols="35" id="suggestion">Type your suggestion here</textarea></td>
+                </tr> 
+                <br/><br/>
+                <tr>
+                    <td colspan="2" align="center"> 
+                        <input type="submit" name="insert" id= "insert" value="Submit" width="200" height="100" border="0"></input>
+                        <br/><br/>
+                        <a href="index.xhtml"><img src="C:\Users\chomu\Desktop\first site\images\reset.png" width="100" height="50" alt="Reset" border="0"></img>
+                        </a>
+                    </td>
+                </tr> 
+            </table> 
+        </form>
+
+    </body>
+</html>
