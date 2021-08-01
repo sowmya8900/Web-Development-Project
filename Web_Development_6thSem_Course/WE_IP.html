@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+
+<style type="text/css">
+	h1{
+		text-align: center;
+		font-family:"Jazz LET", fantasy;
+		color: brown;
+		size: 20px;
+	}
+	button{
+		position: absolute;
+  		left: auto;
+  		
+	}
+</style>
+<body>
+	<h1>Registration Form</h1>
+	<p style="text-align: center;">Please register yourself with us!</p>
+	<br><br>
+<FORM NAME="feedback" ACTION="#" target="www.google.com"> 	
+<TABLE BORDER="0" ALIGN="center"> 
+	<TR><TD>Name: </TD> 
+	<TD><INPUT TYPE="text" NAME="Name" SIZE="40" MAXLENGTH="80"></TD></TR> 
+	<TR><TD>Email address:</TD>
+	<TD><INPUT TYPE="text" NAME="Email" SIZE="40" MAXLENGTH="80"></TD></TR> 
+	<TR><TD>Are you a club member:</TD> 
+	<TD><INPUT TYPE="checkbox" CHECKED NAME="Member" VALUE="yes">yes</TD>
+	<TR><TD VALIGN="top">Your age:</TD> 
+	<TD><INPUT TYPE="radio" NAME="Age" VALUE="20"> &lt;= 20
+	<BR><INPUT TYPE="radio" NAME="Age" VALUE="21-30" CHECKED> 21-30
+	<BR><INPUT TYPE="radio" NAME="Age" VALUE="31-40"> 31-40
+	<BR><INPUT TYPE="radio" NAME="Age" VALUE="40"> &gt; 40
+	</TD></TR> 
+	<TR><TD>Your state:</TD> 
+	<TD> 
+	<SELECT NAME="state">
+	<OPTION VALUE=”asm”>Assam
+	<OPTION VALUE=”nct”  SELECTED> National Capital Territory of Delhi (NCT)
+	<OPTION VALUE=”hry”>Haryana
+	<OPTION VALUE=”mp”>Madhya Pradesh
+	<OPTION VALUE=”tlg”>Telangana
+	<OPTION VALUE=”tln”>Tamil Nadu
+	<OPTION VALUE=”up”>Uttar Pradesh
+	</SELECT>
+	</TD></TR>
+	<TR><TD VALIGN="top">How did you<BR>find our site:</TD> 
+	<TD> 
+	<SELECT NAME="found" SIZE="3">
+	<OPTION>Web Search
+	<OPTION>Link on another site
+	<OPTION>Told about it
+	<OPTION>Other
+	</SELECT></TD></TR> 
+	<TR><TD VALIGN="top">Why do you want to register?</TD> 
+	<TD><TEXTAREA NAME="suggestion" ROWS=2 COLS=35>I am registering because ...
+	</TEXTAREA></TD></TR> 
+	<TR><TD VALIGN="top">Your interests: </TD> 
+	<TD><TEXTAREA NAME="comment" ROWS=2 COLS=35>Additional comments here
+	</TEXTAREA></TD></TR> 
+
+	<br><br>
+	<tr><td align="center">
+		<button id = "button" type="button" onclick="alert('You are going to register')">Register</button>
+	</td></tr>
+
+
+	<TR><TD COLSPAN="2" ALIGN="center"> 
+		<br><br>
+	<A HREF="https://www.google.com"><IMG SRC="images/submit.png" WIDTH="100" HEIGHT="50" BORDER="0"></A>
+	<A HREF="WE_IP.html"><IMG SRC="images/reset.png" WIDTH="100" HEIGHT="50" ALT="Reset" BORDER="0">
+	</A></TD></TR> 
+	
+</TABLE> 
+</FORM>
+
+</body>
+</html>

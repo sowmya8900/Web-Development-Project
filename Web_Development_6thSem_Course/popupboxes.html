@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Pop-Up boxes</h1>
+
+<ul>
+
+<h2>Prompt Box:</h2>
+<li><button onclick="myFunction1()">Prompt looks like this!</button></li>
+
+<p id="demo"></p>
+
+<script>
+function myFunction1() {
+  var txt;
+  var person = prompt("Please enter your name:", "Sowmya Yellapragada");
+  if (person == null || person == "") {
+    txt = "You cancelled the prompt.";
+  } else {
+    txt = "Hello " + person + "! How are you today?";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+<h2>Alert Box:</h2>
+<li><button onclick="myFunction2()">Alert Box</button></li>
+
+<script>
+function myFunction2() {
+  alert("I am an alert box!");
+}
+</script>
+<h2>Confirm Box:</h2>
+
+
+<li><button onclick="myFunction3()">Confirm Box</button></li>
+
+<p id="demo"></p>
+
+<script>
+function myFunction3() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+<h2>JavaScript Line-breaks</h2>
+
+<li><button onclick="alert('Hello\nHow are you?')">Try it</button></li>
+</ul>
+
+
+</body>
+</html>
